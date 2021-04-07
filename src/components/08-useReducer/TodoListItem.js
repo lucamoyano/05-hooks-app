@@ -9,7 +9,7 @@ export const TodoListItem = ({ todo:{id, done, desc}, index, handleToggle, handl
             <p 
                 className={`${done && 'complete'}`}
                 onClick={ () => handleToggle(id) }
-            > { index + 1 }. {desc} 
+            > { index + 1 }.{desc} 
             </p>
             
             <button

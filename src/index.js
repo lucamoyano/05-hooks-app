@@ -13,11 +13,11 @@ import ReactDOM from 'react-dom';
 //import { CallbackHook } from './components/06-memos/CallbackHook';
 //import { Padre } from './components/07-tarea-memo/Padre';
 
-//import { TodoApp } from "./components/08-useReducer/TodoApp";
-import { MainApp } from './components/09-useContext/MainApp';
+import { TodoApp } from "./components/08-useReducer/TodoApp";
+//import { MainApp } from './components/09-useContext/MainApp';
 
 ReactDOM.render(
-  <MainApp />,
+  <TodoApp />,
   document.getElementById('root')
 );
 
